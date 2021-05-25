@@ -207,26 +207,26 @@ li a:any-link:hover{
 @media(max-width: 700px){
     main{
         top: 4vh !important;
-        width: 75vw !important;
-        height: 110vh !important;
+        width: 85vw !important;
+        height: 180vh !important;
     }
     .btn-secondary{
         width: 6rem;
         left: 15vw;
     }
     #register-btn{
-        top: 84vh;
+        top: 104vh;
         left: 30.2vw;
     }
     hr{
-        top: 90vh;
+        top: 110vh;
     }
     #account{
         left: 22.2vw;
-        top: 92.7vh;
+        top: 102.7vh;
     }
     #sign-btn{
-        top: 97vh;
+        top: 107vh;
         left: 30.5vw;
     }
 }
