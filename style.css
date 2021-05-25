@@ -1,0 +1,206 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background-size: cover;
+    background-image: url("http://ninositsolution.com/images/Hospital-Management-System.png");
+}
+.nav-link{
+    color: white;
+    
+}
+.btn{
+    color: white;
+    border: 2px solid black;
+}
+.navbar-collapse{
+    margin-right: 15vw;
+}
+.navbar-collapse ul li{
+    margin-right: 35px;
+}
+.navbar-toggler{
+    color: black;
+    background-color: red;
+}
+main{
+    position: relative;
+    width: 40vw;
+    height: 74vh;
+    background-color: whitesmoke;
+    border: 2px solid white;
+    margin: 5vh 58vw;
+    border-top-left-radius: 24%;
+    border-bottom-left-radius: 24%;
+    border-bottom-right-radius: 24%;
+    border-top-right-radius: 24%;
+}
+form{
+    width: 32vw;
+    margin: 0 0 5vh 4.2vw !important;
+}
+.form-check{
+    width: 80px;
+    
+}
+fieldset{
+    border: 1px solid #ced4da;
+    background-color: white;
+    padding-top: 7px;
+    margin-top: 1.7rem !important;
+    margin-left: 0.45rem;
+    border-radius: 0.38rem;
+    max-width: 97.5% !important;
+}
+#gender{
+    width: 5rem;
+    font-size: medium;
+}
+#sign-btn{
+    position: absolute;
+    top: 66vh;
+    left: 18.5vw;
+    margin-top: 0.3rem;
+    background-color: #0062cc;
+}
+
+#register-btn{
+    margin-top: 1rem;
+    position: absolute;
+    top: 52.5vh;
+    left: 18.2vw;
+    background-color: #0062cc;;
+}
+hr{
+    position: absolute;
+    max-width: 80% !important;
+    top: 59vh;
+}
+#account{
+    margin-top: 0rem !important;
+    position: absolute !important;
+    left: 14.9vw;
+    top: 62.5vh;
+}
+#title{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    
+}
+#hospital-name{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#logo{
+    width: 40px;
+    height: 30px;
+}
+#plus-logo{
+    position: absolute !important;
+    width: 250px;
+    height: 250px;
+    top: 35vh;
+    left: 15vw;
+    
+}
+span img{
+    width: 300px;
+    height: 300px;
+    animation: move linear 5s infinte;
+
+}
+@keyframes move{
+        0%{
+            transform: translateY(-10px)
+        }
+        50%{
+            transform: translateY(0);
+        }
+        100%{
+        transform: translateY(10px)
+    }
+}
+.btn-secondary{
+    display: inline-block;
+    width: 8rem;
+    position: relative;
+    top: 2.3vh;
+    left: 9.5vw;
+    font-size: 15px;
+    margin: 0 !important;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    /* background-color: #3931af !important; */
+    /* margin-right: 2rem; */
+    outline: none;
+}
+ .btn-secondary:hover{
+    background-color: #0062cc !important;
+    color: white !important;
+    outline: none;
+}
+
+.btn-check:active,.btn-secondarac:active
+{
+    background-color: white !important;
+    color: red !important;
+    outline: none !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+} 
+li a:any-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+@media(max-width: 1000px){
+    main{
+        margin: 0 auto !important;
+        width: 59vw;
+    }
+    .row{
+        margin: 0 auto !important;
+    }
+    hr{
+        right: 5vw;
+    }
+    #register-btn,#sign-btn{
+        left: 24.2vw;
+    }
+    #account{
+        left: 19.2vw;
+        top: 61.7vh;
+    }
+}
+@media(max-width: 500px){
+    .btn-secondary{
+        margin-bottom: 2rem !important;
+        width: 5.5rem;
+        left: 13.5vw;
+    }
+    main{
+        margin: 0 auto !important;
+        margin-top: 6vh !important;
+        height: 130vh !important;
+        width: 83vw !important;
+    }
+    #title{
+        font-size: 1.6rem !important;
+    }
+    .row{
+        margin: 0 auto !important;
+    }
+    #register-btn{
+        top: 87.5vh;
+        left: 31.5vw;
+    }
+    hr{
+        top: 93.1vh;
+        right: 8vw;
+    }
+    #account{
+        left: 19.9vw;
+        top: 95.5vh;
+    }
+    #sign-btn{
+        top: 99vh;
+        left: 31.5vw;
+    }
+}
