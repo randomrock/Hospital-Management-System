@@ -213,7 +213,7 @@ li a:any-link:hover{
     main{
         top: 4vh !important;
         width: 90vw !important;
-        height: 160vh !important;
+        height: 145vh !important;
         margin-bottom: 4vh !important;
     }
     .btn-secondary{
@@ -222,17 +222,17 @@ li a:any-link:hover{
     }
     #register-btn{
         top: 120vh;
-        left: 31.5vw;
+        left: 32.5vw;
     }
     hr{
-        top: 135vh;
+        top: 127vh;
     }
     #account{
         left: 21.2vw;
-        top: 141.7vh;
+        top: 132vh;
     }
     #sign-btn{
-        top: 147vh;
-        left: 31.5vw;
+        top: 138vh;
+        left: 33.5vw;
     }
 }
