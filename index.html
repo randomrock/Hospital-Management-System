@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS Files/hospital.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+<script src="/JavaScript Files/hospital.js"></script>
+    <title>Online Hospital Management System</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dard bg-primary">
+        <div class="container-fluid">
+            <nav class="navbar navbar-light" style= "background-color: #07b64a;">
+                <div class="container">
+                  <a class="navbar-brand" href="#" id="hospital-name">
+                    <img src="https://us.123rf.com/450wm/putracetol/putracetol1808/putracetol180800152/106097274-stethoscope-medical-logo-icon-design.jpg?ver=6" alt="" width="30" height="24" class="d-inline-block align-text-top" id="logo" >
+                    GLOBAL HOSPITAL
+                  </a>
+                </div>
+              </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#title">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/HTML Files/Projects/services.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/HTML Files/Projects/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/HTML Files/Projects/feedback.html" tabindex="-1" aria-disabled="true">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- <span>
+        <img src="/Images & Videos/2x/outline_local_hospital_white_48dp.png" alt="hospital-logo" id="plus-logo">
+      </span> -->
+      <main>
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+<label class="btn btn-secondary" for="option1">Patient</label>
+
+<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+<label class="btn btn-secondary" for="option2">Doctor</label>
+
+<input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+<label class="btn btn-secondary" for="option3">Admin</label>
+        <p id="title">Register as Patient</p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputFirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName">
+        </div>
+        <div class="col-md-6">
+          <label for="inputLastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="inputLastName">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPhoneNumber" class="form-label">Contact Number</label>
+            <input type="number" class="form-control" id="inputPhoneNumber">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+       
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="">
+          </div>
+       
+        <fieldset> 
+            <legend id="gender">Gender</legend>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">Other</label>
+          </div>
+        </fieldset>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="register-btn">Register</button>
+        </div>  <hr>
+        <a href="#" id="account">Already have an account?</a>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="sign-btn">Sign In</button>
+        </div>
+      </form>
+    </main>
+</body>
+</html>
