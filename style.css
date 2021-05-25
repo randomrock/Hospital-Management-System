@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 body{
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
     background-size: cover;
@@ -180,6 +184,7 @@ li a:any-link:hover{
         margin-top: 6vh !important;
         height: 130vh !important;
         width: 83vw !important;
+        
     }
     #title{
         font-size: 1.6rem !important;
@@ -209,24 +214,25 @@ li a:any-link:hover{
         top: 4vh !important;
         width: 85vw !important;
         height: 180vh !important;
+        margin-bottom: 4vh !important;
     }
     .btn-secondary{
-        width: 6rem;
-        left: 15vw;
+        width: 5rem;
+        left: 10vw;
     }
     #register-btn{
-        top: 104vh;
+        top: 120vh;
         left: 30.2vw;
     }
     hr{
-        top: 110vh;
+        top: 135vh;
     }
     #account{
         left: 22.2vw;
-        top: 102.7vh;
+        top: 145.7vh;
     }
     #sign-btn{
-        top: 107vh;
+        top: 150vh;
         left: 30.5vw;
     }
 }
