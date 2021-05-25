@@ -217,8 +217,8 @@ li a:any-link:hover{
         margin-bottom: 4vh !important;
     }
     .btn-secondary{
-        width: 4rem;
-        left: 8vw;
+        width: 3.5rem;
+        left: 12.5vw;
     }
     #register-btn{
         top: 120vh;
