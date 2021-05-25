@@ -204,3 +204,29 @@ li a:any-link:hover{
         left: 31.5vw;
     }
 }
+@media(max-width: 700px){
+    main{
+        top: 4vh !important;
+        width: 75vw !important;
+        height: 110vh !important;
+    }
+    .btn-secondary{
+        width: 6rem;
+        left: 15vw;
+    }
+    #register-btn{
+        top: 84vh;
+        left: 30.2vw;
+    }
+    hr{
+        top: 90vh;
+    }
+    #account{
+        left: 22.2vw;
+        top: 92.7vh;
+    }
+    #sign-btn{
+        top: 97vh;
+        left: 30.5vw;
+    }
+}
