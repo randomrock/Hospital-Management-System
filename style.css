@@ -31,6 +31,7 @@ main{
     background-color: whitesmoke;
     border: 2px solid white;
     margin: 5vh 58vw;
+    margin-bottom: 4vh;
     border-top-left-radius: 24%;
     border-bottom-left-radius: 24%;
     border-bottom-right-radius: 24%;
