@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" media="screen and (max-width: 1500px)">
+    <link rel="stylesheet" href="/CSS Files/screen.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS Files/hospital.css" media="screen and (min-width: 1501px)">
+    <title>Hospital Management</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+  <!-- For smaller screens -->
+  <div class="small">
+  <header class="text-black-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" id="header">
+      <a class="flex title-font font-medium items-center text-black-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">GLOBAL HOSPITAL</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="#title" class="mr-5 hover:text-black-900">Home</a>
+        <a href="/HTML Files/Projects/services.html" class="mr-5 hover:text-black-900">About Us</a>
+        <a href="/HTML Files/Projects/contact.html" class="mr-5 hover:text-black-900">Contact</a>
+        <a href="/HTML Files/Projects/feedback.html" class="mr-5 hover:text-black-900">Feedback</a>
+      </nav>
+      <!-- <button class="inline-flex items-center bg-black-100 border-0 py-1 px-3 focus:outline-none hover:bg-black-200 rounded text-base mt-4 md:mt-0">Button
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button> -->
+    </div>
+  </header>
+  <section class="text-black-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black-900" id="title">Register as Patient</h1>
+        <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep.</p> -->
+      </div>
+      <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+        <div class="relative flex-grow w-full">
+          <label for="first-name" class="leading-7 text-sm text-black-600">First Name / नाम</label>
+          <input type="text" id="first-name" name="first-name" class="w-full bg-black-100 bg-opacity-50 rounded border border-black-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full">
+          <label for="last-name" class="leading-7 text-sm text-black-600">Last Name / उपनाम</label>
+          <input type="text" id="last-name" name="last-name" class="w-full bg-black-100 bg-opacity-50 rounded border border-black-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full">
+          <label for="email" class="leading-7 text-sm text-black-600">Email / ईमेल</label>
+          <input type="email" id="email" name="email" class="w-full bg-black-100 bg-opacity-50 rounded border border-black-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full">
+          <label for="contact-number" class="leading-7 text-sm text-black-600">Contact Number / फ़ोन नंबर</label>
+          <input type="number" id="contact-number" name="contact-number" class="w-full bg-black-100 bg-opacity-50 rounded border border-black-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full">
+          <div class="mt-10 sm:mt-0">
+            <fieldset>
+                <legend class="text-base font-medium text-black-900">Gender / लिंग</legend>
+              <div class="mt-4 space-y-4">
+                <div class="flex items-center">
+                  <input id="male" name="gender" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-black-300">
+                  <label for="male" class="ml-3 block text-sm font-medium text-black-700">
+                    Male / पुरुष
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input id="female" name="gender" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-black-300">
+                  <label for="female" class="ml-3 block text-sm font-medium text-black-700">
+                    Female / महिला
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input id="other" name="gender" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-black-300">
+                  <label for="other" class="ml-3 block text-sm font-medium text-black-700">
+                    Other / अन्य
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="password" class="leading-7 text-sm text-black-600">Password / पासवर्ड</label>
+            <input type="password" id="password" name="password" class="w-full bg-black-100 bg-opacity-50 rounded border border-black-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" id="regs-btn">Register</button>
+        <br><br>
+        <p id="account">Already have an account</p>
+        <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" id="sign-btn">Sign in</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+  <!-- For bigger screens -->
+  <div class="big">
+  <nav class="navbar navbar-expand-lg navbar-dard bg-primary">
+    <div class="container-fluid">
+        <nav class="navbar navbar-light" style= "background-color: #07b64a;">
+            <div class="container">
+              <a class="navbar-brand" href="#" id="hospital-name">
+                <img src="https://us.123rf.com/450wm/putracetol/putracetol1808/putracetol180800152/106097274-stethoscope-medical-logo-icon-design.jpg?ver=6" alt="" width="30" height="24" class="d-inline-block align-text-top" id="logo" >
+                GLOBAL HOSPITAL
+              </a>
+            </div>
+          </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#title">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/Hospital-Management-System/services.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/Hospital-Management-System/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/HTML Files/Projects/feedback.html" tabindex="-1" aria-disabled="true">Feedback</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!-- <span>
+        <img src="/Images & Videos/2x/outline_local_hospital_white_48dp.png" alt="hospital-logo" id="plus-logo">
+      </span> -->
+      <main>
+        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+<label class="btn btn-secondary" for="option1">Patient</label>
+
+<input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+<label class="btn btn-secondary" for="option2">Doctor</label>
+
+<input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+<label class="btn btn-secondary" for="option3">Admin</label>
+        <p id="title">Register as Patient</p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputFirstName" class="form-label">First Name / नाम</label>
+          <input type="text" class="form-control" id="inputFirstName">
+        </div>
+        <div class="col-md-6">
+          <label for="inputLastName" class="form-label">Last Name / उपनाम</label>
+          <input type="text" class="form-control" id="inputLastName">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email / ईमेल</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPhoneNumber" class="form-label">Contact Number / फ़ोन नंबर</label>
+            <input type="number" class="form-control" id="inputPhoneNumber">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password / पासवर्ड</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+       
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City / शहर</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="">
+          </div>
+       
+        <fieldset> 
+          <p id="gender">Gender/लिंग</p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Male/पुरुष</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Female/महिला</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">Other/
+              अन्य</label>
+          </div>
+        </fieldset>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="register-btn">Register</button>
+        </div>  <hr>
+        <a href="#" id="account">Already have an account?</a>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="sign-btn">Sign In</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
