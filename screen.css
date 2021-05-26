@@ -42,17 +42,17 @@
         position: relative;
         top: 1vh;
         font-size: medium;
-        right: 13vw;
+        right: 6vw;
     }
     #regs-btn{
         position: relative;
         top: 2vh;
-        right: 17vw;
+        right: 10vw;
     }
     #sign-btn{
         position: relative;
         top: 2vh;
-        right: 18vw;
+        right: 10.5vw;
     }
   
   @media(min-width: 1500px){
