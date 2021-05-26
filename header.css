@@ -3,10 +3,9 @@ body{
     background-size: cover;
 }
 
-/* .leading-7,
-.text-gray-600 {
-    color: black;
-} */
+html,body{
+        overflow-x: hidden;
+    }
 
 nav {
 
