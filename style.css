@@ -236,3 +236,13 @@ li a:any-link:hover{
         left: 33.5vw;
     }
 }
+@media(min-width: 1900px){
+    #gender{
+        display: inline-block;
+    }
+    .form-check-inline{
+        display: inline-block;
+        margin-right: 0;
+        margin-left: 4rem;
+    }
+}
