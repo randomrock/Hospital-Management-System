@@ -45,17 +45,17 @@
         position: relative;
         top: 1vh;
         font-size: medium;
-        right: 2vw;
+        left: 1vw;
     }
     #regs-btn{
         position: relative;
         top: 2vh;
-        right: 5vw;
+        right: 5.5vw;
     }
     #sign-btn{
         position: relative;
         top: 2vh;
-        right: 4.5vw;
+        right: 5vw;
     }
   
   @media(min-width: 1500px){
