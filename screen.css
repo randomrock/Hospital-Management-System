@@ -7,6 +7,86 @@
         opacity: 0.9;
         background-image: url("http://ninositsolution.com/images/Hospital-Management-System.png");
     }
+    #footer{
+        background-color: whitesmoke;
+        border-radius: 15vh;
+        margin: 2rem;
+    }
+    footer a{
+        color: #0d6efd !important;
+    }
+    #footer-text{
+        background-color: whitesmoke;
+        border-radius: 8000px;
+        margin: 2rem;
+    }
+    footer path{
+        color: black !important;
+    }
+    footer .text-xl{
+        color: black;
+    }
+    #footer-text a{
+        color: black;
+    }
+    @media(max-width: 700px){
+        section{
+            width: 65vw !important;
+        }
+        #content{
+            flex-direction: column !important;
+        }
+        fieldset{
+            top: -4.2vh !important;
+        }
+        #password-box{
+            position: absolute;
+            top: 14.5vh;
+        }
+        #regs-btn{
+            position: absolute;
+            top: 0vh !important;
+            left: -11vw !important;
+        }
+        #account{
+            top: 2.5vh !important;
+            left: -6.5vw !important;
+        }
+        #sign-in{
+            top: 4vh;
+            right: 12vw;
+        }
+    }
+    @media(min-width: 600px){
+        #content{
+            flex-direction: column !important;
+        }
+        fieldset{
+            top: 0.8vh;
+        }
+        #password-box{
+            position: absolute;
+            top: 14.5vh;
+        }
+        #regs-btn{
+            position: absolute;
+            top: 5vh !important;
+            right: 4vw !important;
+        }
+        #account{
+            top: 2.5vh !important;
+            left: -2vw !important;
+        }
+        #sign-in{
+            top: 4vh;
+        }
+        section{
+            margin: 0 auto !important;
+        }
+        .relative{
+            bottom: 5vh;
+        }
+    }
     #header{
         background-color: #3931af;
         margin-bottom: 2vh;
