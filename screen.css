@@ -73,8 +73,8 @@
         background-size: cover;
         background-image: url("http://ninositsolution.com/images/Hospital-Management-System.png");
     }
-    .nav-link{
-        color: white;
+    .nav-link,.navbar-nav{
+        color: white !important;
         
     }
     .btn{
@@ -97,7 +97,7 @@
         height: 74vh;
         background-color: whitesmoke;
         border: 2px solid white;
-        margin: 15vh 57.5vw;
+        margin: 5vh 57.5vw;
         border-top-left-radius: 24%;
         border-bottom-left-radius: 24%;
         border-bottom-right-radius: 24%;
