@@ -29,7 +29,7 @@
     #footer-text a{
         color: black;
     }
-    @media(max-width: 700px){
+    @media(min-width: 700px){
         section{
             width: 65vw !important;
         }
