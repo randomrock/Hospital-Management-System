@@ -32,7 +32,7 @@
     #footer-text a{
         color: black;
     }
-    @media(min-width: 700px){
+    @media(min-width: 800px){
         section{
             width: 65vw !important;
             margin: 0 auto !important;
