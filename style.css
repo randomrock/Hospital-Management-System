@@ -4,7 +4,8 @@ html,body{
 body{
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
     background-size: cover;
-    background-image: url("http://ninositsolution.com/Hospital-Management-System.png") !important;
+    background-image: url("Hospital-Management-System
+/Hospital-Management-System.png") !important;
 }
 .nav-link,.active{
     color: white !important;
